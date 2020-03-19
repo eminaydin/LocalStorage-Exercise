@@ -1,9 +1,8 @@
 // The following line makes sure your styles are included in the project. Don't remove this.
 import '../styles/main.scss';
 import "regenerator-runtime/runtime";
-import "materialize-css";
-// Import any additional modules you want to include below \/
+import "materialize-css/dist/css/materialize.css";
 
-
-// \/ All of your javascript should go here \/
+const darkTheme = document.querySelector("dark");
+const lightTheme= document.querySelector("light");
 
