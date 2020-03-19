@@ -10,6 +10,7 @@ const darkThemeColor = localStorage.getItem("theme");
 
  if (darkThemeColor) {
      document.querySelector("body").style.textColor = "white";
+     document.getElementById("navbar").style.backgroundColor = "black";
  } else {
      
  }
